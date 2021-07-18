@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Search for a Word</h1>
+        <div class="bar">
+            <input 
+            onkeypress="handle(event)"
+            type="text" 
+            placeholder="Type and press enter" class="search-field">
+        </div>
+        
+        <div class="result">
+            <h1 class="word"></h1>
+            
+            <p class="phonetics"></p>
+            <audio class="audio" controls></audio>
+            
+            <p class="meaningheading">Meaning</p>
+            <p class="word-definition"></p>
+            <p class="meaningheading">Synonyms</p>
+         <div class="synonyms">
+            
+         </div>
+        </div>
+        <p class="footer">
+            <strong>&lt;/&gt;</strong> by <a target="_blank" href="https://www.linkedin.com/in/abhishekmorla/" style="text-decoration:none;">abhishekmorla</a>.
+            </p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
